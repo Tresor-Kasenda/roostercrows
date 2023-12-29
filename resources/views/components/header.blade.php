@@ -74,11 +74,11 @@
                        class="relative text-[15px] font-medium py-2.5 duration-300 ease-linear hover:text-pink-600 after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-pink-600">Home</a>
                 </li>
                 <li class="group">
-                    <a href="#about"
+                    <a href="#about-us"
                        class="relative text-[15px] font-medium py-2.5 duration-300 ease-linear hover:text-pink-600 after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-pink-600">About</a>
                 </li>
                 <li class="group">
-                    <a href="#service"
+                    <a href="#services"
                        class="relative text-[15px] font-medium py-2.5 duration-300 ease-linear hover:text-pink-600 after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-pink-600">Services</a>
                 </li>
                 <li class="group">
@@ -88,8 +88,15 @@
             </ul>
             <div class="flex sm:items-center lg:min-w-max mt-10 lg:mt-0">
                 <a href="{{ route('contact') }}"
-                   class="px-6 items-center  text-sm font-normal h-12 rounded-3xl text-pink-700 border border-gray-300  transition duration-300 ease-linear flex justify-center w-full sm:w-auto">
-                    Book a call
+                   class="group/a flex h-9 items-center overflow-hidden rounded-full border border-gray-400 py-3 px-4 text-sm text-pink-700 transition-all duration-300 hover:rounded-full hover:border-pink-700 hover:bg-pink-700 hover:text-white">
+                     <span class="relative flex items-center">
+                        Book a call
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                             stroke="currentColor"
+                             class="group-hover/a:translate-x-2 h-4 w-4 translate-x-1 duration-300">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"/>
+                        </svg>
+                     </span>
                 </a>
             </div>
         </div>
