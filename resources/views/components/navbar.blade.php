@@ -1,9 +1,10 @@
 <section class="relative py-4" id="home">
-    <div class="splide absolute z-6" aria-label="Splide Basic HTML Example">
+    <div class="absolute splide z-6" aria-label="Splide Basic HTML Example">
         <div class="splide__track h-max min-h-max">
             <ul class="splide__list cursor-grab active:cursor-grabbing select-none children:select-none">
                 <li class="splide__slide">
-                    <img src="" class="inset-0 object-cover object-center" alt="" width="800" height="400"/>
+                    <img src=""
+                         class="inset-0 object-cover object-center" alt="" width="800" height="400"/>
                 </li>
             </ul>
         </div>
@@ -20,11 +21,11 @@
                     commerciaux et vos commerce international en RDC
                 </p>
                 <div class="mt-10 flex items-center justify-center gap-x-6">
-                    <a href="#"
+                    <a href="{{ route('contact') }}"
                        class="relative px-8 h-12 text-sm rounded-full flex items-center gap-x-3 text-white before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-pink-700 after:bg-pink-600 before:text-white before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95">
                         <span class="relative w-max text-white"> Prendre rendez-vous </span>
                     </a>
-                    <a href="#" class="font-semibold text-sm text-white leading-6">
+                    <a href="#about-us" class="font-semibold text-sm text-white leading-6">
                         Learn more <span aria-hidden="true">→</span>
                     </a>
                 </div>
@@ -33,19 +34,19 @@
         <div class="mt-12  grid grid-cols-4 sm:grid-cols-2 md:grid-cols-4 pb-3">
             <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
                 <img src="{{ asset('assets/logos/kamoto.png') }}" class="h-12 w-auto mx-auto" loading="lazy"
-                     alt="client logo" width="" height="">
+                     alt="client logo">
             </div>
             <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
                 <img src="{{ asset('assets/logos/mkk.png') }}" class="h-12 w-auto mx-auto" loading="lazy"
-                     alt="client logo" width="" height="">
+                     alt="client logo">
             </div>
             <div class="p-4 flex grayscale transition duration-200 hover:grayscale-0">
                 <img src="{{ asset('assets/logos/mumi.png') }}" class="h-9 w-auto m-auto" loading="lazy"
-                     alt="client logo" width="" height="">
+                     alt="client logo">
             </div>
             <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
                 <img src="{{ asset('assets/logos/rawbank.png') }}" class="h-12 w-auto mx-auto" loading="lazy"
-                     alt="client logo" width="" height="">
+                     alt="client logo">
             </div>
         </div>
     </div>

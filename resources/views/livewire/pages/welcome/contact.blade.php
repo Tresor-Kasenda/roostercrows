@@ -1,9 +1,36 @@
 <?php
 
+use App\Notifications\ContactNotification;
+use Illuminate\Support\Facades\Notification;
 use Livewire\Attributes\Layout;
 use Livewire\Volt\Component;
 
 new #[Layout('layouts.guest')] class extends Component {
+
+    public string $full_name;
+
+    public string $email;
+
+    public string $phones;
+
+    public string $objectif;
+
+    public string $message;
+
+    public function sendMessages(): void
+    {
+        $validation = $this->validate([
+            'full_name' => ['required', 'string', 'min:10'],
+            'email' => ['required', 'string', 'lowercase', 'email', 'max:255'],
+            'phones' => ['required', 'string'],
+            'objectif' => ['required', 'string'],
+            'message' => ['required', 'string']
+        ]);
+        Notification::sendNow(
+            $validation['email'],
+            new ContactNotification($validation)
+        );
+    }
 
 }; ?>
 
@@ -15,7 +42,7 @@ new #[Layout('layouts.guest')] class extends Component {
                 Nous sommes à votre disposition pour vous conseiller et vous accompagner <br> dans tous vos projets.
             </p>
         </div>
-        <div class=" mx-auto relative py-20 mb-20 max-w-7xl pb-20">
+        <div class=" mx-auto relative py-20 mb-5 max-w-7xl">
             <div class="grid grid-cols-1 sm:grid-col-2 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <div
                     class=" space-y-3 border hover:border-slate-400 duration-300 ease-linear hover:ring-0 transition hover:transition-all shadow-md px-4 py-4 rounded-lg">
@@ -38,9 +65,9 @@ new #[Layout('layouts.guest')] class extends Component {
             </div>
         </div>
         <div class=" mx-auto max-w-7xl relative">
-            <div class="mt-14 py-20">
-                <form action="#" method="post" class=" shadow border px-6 py-8 rounded-lg">
-                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+            <div class="mt-14 pb-5">
+                <form wire:submit.prevent="sendMessages" method="post" class=" shadow border px-6 py-8 rounded-lg">
+                    <div class="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
                         <div class="flex flex-col">
                             <label for="full_name"
                                    class="block mb-2 text-base leading-6 font-medium text-gray-900">Full
@@ -50,7 +77,12 @@ new #[Layout('layouts.guest')] class extends Component {
                                 placeholder="Full name"
                                 id="full_name"
                                 name="full_name"
-                                class="mt-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
+                                wire:model.live="full_name"
+                                value="{{ old('full_name') }}"
+                                class="mt-2 bg-gray-50 border border-gray-300 text-gray-900 @error('full_name') border-red-500 @enderror  text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
+                            @error('full_name')
+                            <span class="text-red-500 font-semibold py-2 ">{{ $message }}</span>
+                            @enderror
                         </div>
                         <div class="flex flex-col">
                             <label for="email"
@@ -61,7 +93,12 @@ new #[Layout('layouts.guest')] class extends Component {
                                 placeholder="Email address"
                                 id="email"
                                 name="email"
-                                class="mt-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 ">
+                                wire:model.live="email"
+                                value="{{ old('email') }}"
+                                class="mt-2 bg-gray-50 border border-gray-300 text-gray-900 @error('email') border-red-500 @enderror text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 ">
+                            @error('email')
+                            <span class="text-red-500 font-semibold py-2 ">{{ $message }}</span>
+                            @enderror
                         </div>
                         <div class="flex flex-col">
                             <label for="phones"
@@ -71,7 +108,12 @@ new #[Layout('layouts.guest')] class extends Component {
                                 placeholder="Phone number"
                                 id="phones"
                                 name="phones"
-                                class="mt-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
+                                wire:model.live="phones"
+                                value="{{ old('phones') }}"
+                                class="mt-2 bg-gray-50 border border-gray-300 text-gray-900 @error('phones') border-red-500 @enderror text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
+                            @error('phones')
+                            <span class="text-red-500 font-semibold py-2 ">{{ $message }}</span>
+                            @enderror
                         </div>
 
                         <div class="flex flex-col">
@@ -82,16 +124,28 @@ new #[Layout('layouts.guest')] class extends Component {
                                 placeholder="Votre objectif"
                                 id="objectif"
                                 name="objectif"
-                                class="mt-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
+                                wire:model.live="objectif"
+                                value="{{ old('objectif') }}"
+                                class="mt-2 bg-gray-50 border border-gray-300 text-gray-900 @error('objectif') border-red-500 @enderror text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
+                            @error('objectif')
+                            <span class="text-red-500 font-semibold py-2 ">{{ $message }}</span>
+                            @enderror
                         </div>
 
                         <div class="flex flex-col col-span-full">
                             <label for="message"
                                    class="block mb-2 text-base leading-6 font-medium text-gray-900">Your
                                 message</label>
-                            <textarea id="message" name="message" rows="8"
-                                      class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500"
-                                      placeholder="Leave a comment..."></textarea>
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="8"
+                                wire:model.live="message"
+                                class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 @error('message') border-red-500 @enderror rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500"
+                                placeholder="Leave a comment...">{{ old('messages') }}</textarea>
+                            @error('message')
+                            <span class="text-red-500 font-semibold py-2 ">{{ $message }}</span>
+                            @enderror
                         </div>
                     </div>
                     <button type="submit"
