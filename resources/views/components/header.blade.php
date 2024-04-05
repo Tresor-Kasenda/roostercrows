@@ -71,19 +71,19 @@
              class=" absolute top-full translate-y-10 opacity-0 invisible lg:visible  lg:translate-y-0 lg:opacity-100 left-0 bg-white lg:bg-transparent border-b border-gray-200 py-8 lg:py-0 px-5 sm:px-10 md:px-12 lg:px-0 lg:border-none w-full lg:top-0 lg:relative  lg:flex lg:justify-between duration-300 ease-linear">
             <ul class="flex flex-col lg:flex-row gap-6 lg:items-center text-gray-700 lg:w-full lg:justify-center">
                 <li class="group">
-                    <a href="#home"
+                    <a href="#"
                        class="relative text-[15px] font-medium py-2.5 duration-300 ease-linear hover:text-pink-600 after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-pink-600">Home</a>
                 </li>
                 <li class="group">
-                    <a href="#about-us"
+                    <a href="#"
                        class="relative text-[15px] font-medium py-2.5 duration-300 ease-linear hover:text-pink-600 after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-pink-600">About</a>
                 </li>
                 <li class="group">
-                    <a href="#services"
+                    <a href="#"
                        class="relative text-[15px] font-medium py-2.5 duration-300 ease-linear hover:text-pink-600 after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-pink-600">Services</a>
                 </li>
                 <li class="group">
-                    <a href="#cta"
+                    <a href="#"
                        class="relative text-[15px] font-normal py-2.5 duration-300 ease-linear hover:text-pink-600 after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-pink-600">Work</a>
                 </li>
             </ul>

@@ -29,7 +29,7 @@
 
     <link rel="shortcut icon" href="{{ asset('assets/logos/logo.svg') }}" type="image/png">
     <link rel="icon" type="image/svg+xml" href="{{ asset('assets/logos/logo.svg') }}"/>
-    <link rel="manifest" href="/manifest.json">
+    <link rel="manifest" href="">
     <link rel="apple-touch-icon" sizes="192x192" href="{{ asset('assets/logos/logo.svg') }}">
     <link rel="apple-touch-icon" sizes="512x512" href="{{ asset('assets/logos/logo.svg') }}">
     <link rel="apple-touch-startup-image" href="{{ asset('assets/logos/logo.svg') }}">

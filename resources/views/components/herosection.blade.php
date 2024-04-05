@@ -15,7 +15,7 @@
                        class="relative px-8 h-12 text-sm rounded-xl flex items-center gap-x-3 text-white before:absolute before:inset-0  before:bg-pink-700 after:bg-pink-600 before:text-white before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95">
                         <span class="relative w-max text-white"> Prendre rendez-vous </span>
                     </a>
-                    <a href="reabout-us"
+                    <a href="#"
                        class="font-semibold bg-gray-500 px-8 py-3 rounded-xl text-sm text-white leading-6">
                         Learn more <span aria-hidden="true">→</span>
                     </a>
