@@ -26,7 +26,7 @@
                                 </h2>
                             </div>
                             <p class="text-gray-700 text-sm leading-loose">
-                                Sous l'inspiration de M. Elvis NDUMBA A. et M. Rama Deogracias, avec des années
+                                Sous l'inspiration de M. Rama Deogracias, avec des années
                                 d’expériences accumulées dans le domaine de : Facilitation et échanges commerciaux,
                                 Supply Chain et logistique (dédouanement en import et export),
                                 Soudures industrielles et maintenances des engins lourds et de génie civile, la location

@@ -30,12 +30,12 @@
 
     <title>{{ config('app.name') }} - {{ $title }}</title>
 
-    <link rel="shortcut icon" href="/images/logo.svg" type="image/png">
-    <link rel="icon" type="image/svg+xml" href="/logo.svg"/>
+    <link rel="shortcut icon" href="{{ asset('assets/logos/logo.svg') }}" type="image/png">
+    <link rel="icon" type="image/svg+xml" href="{{ asset('assets/logos/logo.svg') }}"/>
     <link rel="manifest" href="/manifest.json">
-    <link rel="apple-touch-icon" sizes="192x192" href="/images/og/logo.png">
-    <link rel="apple-touch-icon" sizes="512x512" href="/images/og/logo.png">
-    <link rel="apple-touch-startup-image" href="/images/og/logo.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="{{ asset('assets/logos/logo.svg') }}">
+    <link rel="apple-touch-icon" sizes="512x512" href="{{ asset('assets/logos/logo.svg') }}">
+    <link rel="apple-touch-startup-image" href="{{ asset('assets/logos/logo.svg') }}">
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

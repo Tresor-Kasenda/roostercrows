@@ -6,7 +6,7 @@ use Livewire\Volt\Component;
 new #[Layout('layouts.guest')] class extends Component {
 }; ?>
 <div>
-    <x-navbar/>
+    <x-herosection/>
     <x-service/>
     <x-about-us/>
     <x-teams/>
