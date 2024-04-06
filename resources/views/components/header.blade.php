@@ -1,5 +1,5 @@
 <div data-nav-overlay aria-hidden="true" class="fixed bg-gray-800/40 inset-0 z-30 hidden lg:hidden"></div>
-<div class="bg-slate-950" data-navbar="true">
+<div class="bg-slate-950 border-b border-b-slate-50/20" data-navbar="true">
     <div class="mx-auto lg:max-w-6xl w-full px-5 sm:px-10 md:px-12 lg:px-5">
         <div class="w-full flex justify-between h-14 items-center">
             <div class="h-full flex items-center gap-x-4">
@@ -56,52 +56,59 @@
     </div>
 </div>
 <header
-    class="sticky left-0 top-0 w-full flex items-center bg-slate-100 h-20 border-b border-b-gray-100  z-40 bg-opacity-80 backdrop-filter backdrop-blur-xl">
+    class="sticky left-0 top-0 w-full flex items-center h-20  z-40 bg-opacity-80 backdrop-filter backdrop-blur-xl">
     <nav
-        class="relative mx-auto lg:max-w-6xl w-full px-5 sm:px-10 md:px-12 lg:px-5 flex gap-x-5 justify-between items-center">
+        class="relative mx-auto lg:max-w-6xl w-full px-5 sm:px-10 md:px-12 lg:px-5 flex flex-shrink-0 gap-x-5 justify-between items-center">
         <div class="flex items-center min-w-max">
             <a href="{{ route('home') }}" class="text-xl font-semibold flex items-center gap-x-2">
-                <span class="text-lg text-gray-700">
+                <span class="text-lg">
                     <img src="{{ asset('assets/images/review.webp') }}" class="w-36 sm:w-20 lg:w-36" alt="tailus logo"/>
                 </span>
             </a>
         </div>
 
         <div data-navbar
-             class=" absolute top-full translate-y-10 opacity-0 invisible lg:visible  lg:translate-y-0 lg:opacity-100 left-0 bg-white lg:bg-transparent border-b border-gray-200 py-8 lg:py-0 px-5 sm:px-10 md:px-12 lg:px-0 lg:border-none w-full lg:top-0 lg:relative  lg:flex lg:justify-between duration-300 ease-linear">
-            <ul class="flex flex-col lg:flex-row gap-6 lg:items-center text-gray-700 lg:w-full lg:justify-center">
+             class=" absolute top-full translate-y-10 opacity-0 invisible lg:visible  lg:translate-y-0 lg:opacity-100 left-0 lg:bg-transparent py-8 lg:py-0 px-5 sm:px-10 md:px-12 lg:px-0 w-full lg:top-0 lg:relative  lg:flex lg:justify-between duration-300 ease-linear">
+            <ul class="flex flex-col lg:flex-row gap-6 lg:items-center lg:w-full lg:justify-center">
                 <li class="group">
                     <a href="#"
-                       class="relative text-[15px] font-medium py-2.5 duration-300 ease-linear hover:text-pink-600 after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-pink-600">Home</a>
+                       class="relative text-slate-50 text-sm font-semibold py-2.5 duration-300 ease-linear hover:text-base after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-base">Home</a>
                 </li>
                 <li class="group">
                     <a href="#"
-                       class="relative text-[15px] font-medium py-2.5 duration-300 ease-linear hover:text-pink-600 after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-pink-600">About</a>
+                       class="relative text-slate-50 text-sm font-semibold py-2.5 duration-300 ease-linear hover:text-base after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-base">About</a>
                 </li>
                 <li class="group">
                     <a href="#"
-                       class="relative text-[15px] font-medium py-2.5 duration-300 ease-linear hover:text-pink-600 after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-pink-600">Services</a>
+                       class="relative text-slate-50 text-sm font-semibold py-2.5 duration-300 ease-linear hover:text-base after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-base">Services</a>
                 </li>
                 <li class="group">
                     <a href="#"
-                       class="relative text-[15px] font-normal py-2.5 duration-300 ease-linear hover:text-pink-600 after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-pink-600">Work</a>
+                       class="relative text-slate-50 text-sm font-semibold py-2.5 duration-300 ease-linear hover:text-base after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-base">Work</a>
                 </li>
             </ul>
-            <div class="flex sm:items-center lg:min-w-max mt-10 lg:mt-0">
-                <a href="{{ route('contact') }}"
-                   class="group/a flex h-9 items-center overflow-hidden rounded-full border border-gray-400 py-3 px-4 text-sm text-pink-700 transition-all duration-300 hover:rounded-full hover:border-pink-700 hover:bg-pink-700 hover:text-white">
-                     <span class="relative flex items-center">
+            <div class="flex items-center lg:min-w-max mt-10 lg:mt-0 gap-4 lg:gap-6">
+                <a href="{{ route('contact') }}" class="group/a">
+                     <span
+                         class="text-slate-50 text-sm font-semibold border border-slate-50/20 px-4 py-3 rounded-xl duration-300 ease-linear hover:bg-slate-800">
                         Book a call
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                             stroke="currentColor"
-                             class="group-hover/a:translate-x-2 h-4 w-4 translate-x-1 duration-300">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"/>
-                        </svg>
+                     </span>
+                </a>
+                <a href="{{ route('contact') }}"
+                   class="group/a flex h-9 items-center overflow-hidden rounded-full py-3 px-4 text-lg bg-gradient-to-t from-base to-pink-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                         stroke="currentColor" class="size-5 text-slate-50 mr-2">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                              d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"/>
+                    </svg>
+
+                    <span class="text-white text-sm font-semibold">
+                        Book a call
                      </span>
                 </a>
             </div>
         </div>
-        <div aria-hidden="true" class="flex items-center lg:hidden">
+        <div aria-hidden="true" class="flex flex-col items-center lg:hidden">
             <button aria-label="toggle navbar" data-toggle-navbar data-is-open="false"
                     class="outline-none border-l border-l-pink-100  pl-3 relative py-3 children:flex">
                 <span id="line-1" aria-hidden="true"

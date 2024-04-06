@@ -21,6 +21,7 @@ export default {
                 "heading-1": "rgb(var(--heading-1))",
                 "heading-2": "rgb(var(--heading-2))",
                 "heading-3": "rgb(var(--heading-3))",
+                base: "#dc2b32"
             },
             screens: {
                 midmd: "880px"

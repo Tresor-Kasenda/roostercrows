@@ -7,8 +7,9 @@ new #[Layout('layouts.guest')] class extends Component {
 }; ?>
 <div>
     <x-herosection/>
-    <x-service/>
     <x-about-us/>
+    <x-service/>
+    <x-partner/>
     <x-teams/>
     <x-call-to-action/>
 </div>
