@@ -17,10 +17,10 @@
                 <div
                     class="h-full bg-gradient-to-r from-cyan-400 to-cyan-600 blur-[106px] dark:to-indigo-600/10"></div>
             </div>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 h-[28rem] md:h-[19rem]">
+            <div class="grid relative grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 h-[28rem] md:h-[19rem]">
                 <div
-                    class="bg-gradient-to-b from-transparent to-40% to-[#F7F7F8] dark:to-[#04050B] cursor-pointer p-6 ease-in-out  hover:shadow-lg rounded-tl-xl transition duration-200 border border-gray-300/15 shadow-md text-center">
-                    <svg class="mx-auto mb-4 h-16 w-16 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    class="bg-slate-800/10 backdrop-blur-sm cursor-pointer p-6 ease-in-out  hover:shadow-lg rounded-tl-xl transition duration-200 border border-gray-300/15 shadow-md text-center">
+                    <svg class="mx-auto mb-4 h-16 w-16 text-base/70" xmlns="http://www.w3.org/2000/svg" fill="none"
                          viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                               d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
@@ -37,8 +37,8 @@
                     </p>
                 </div>
                 <div
-                    class="bg-gradient-to-b from-transparent to-40% to-[#F7F7F8] dark:to-[#04050B] cursor-pointer p-6 ease-in-out hover:shadow-lg rounded-tr-xl transition duration-200 border border-gray-300/15 shadow-md text-center">
-                    <svg class="mx-auto mb-4 h-16 w-16 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    class="bg-slate-800/10 backdrop-blur-sm  cursor-pointer p-6 ease-in-out hover:shadow-lg rounded-tr-xl transition duration-200 border border-gray-300/15 shadow-md text-center">
+                    <svg class="mx-auto mb-4 h-16 w-16 text-green-700/70" xmlns="http://www.w3.org/2000/svg" fill="none"
                          viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                               d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
@@ -55,9 +55,9 @@
 
                 </div>
             </div>
-            <div class="hidden mt-4 md:grid grid-cols-1 md:grid-cols-3 gap-4 h-[39rem] md:h-[22rem]">
+            <div class="hidden relative mt-4 md:grid grid-cols-1 md:grid-cols-3 gap-4 h-[39rem] md:h-[22rem]">
                 <div
-                    class="bg-gradient-to-b from-transparent to-40% to-[#F7F7F8] dark:to-[#04050B] cursor-pointer p-6 ease-in-out hover:shadow-lg rounded-bl-xl transition duration-200 border border-gray-300/15 shadow-md text-center">
+                    class="bg-slate-800/10 backdrop-blur-sm  cursor-pointer p-6 ease-in-out hover:shadow-lg rounded-bl-xl transition duration-200 border border-gray-300/15 shadow-md text-center">
                     <svg class="mx-auto mb-4 h-16 w-16 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
                          viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -75,7 +75,7 @@
 
                 </div>
                 <div
-                    class="bg-gradient-to-b from-transparent to-40% to-[#F7F7F8] dark:to-[#04050B] cursor-pointer p-6 ease-in-ou hover:shadow-lg transition duration-200 border border-gray-300/15 shadow-md text-center">
+                    class="bg-slate-800/10 backdrop-blur-sm  dark:to-[#04050B] cursor-pointer p-6 ease-in-out hover:shadow-lg transition duration-200 border border-gray-300/15 shadow-md text-center">
                     <svg class="mx-auto mb-4 h-16 w-16 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
                          viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -93,7 +93,7 @@
 
                 </div>
                 <div
-                    class="bg-gradient-to-b from-transparent to-40% to-[#F7F7F8] dark:to-[#04050B] cursor-pointer p-6 border border-gray-300/15 text-center  rounded-br-xl transition duration-200 ease-in-out hover:shadow-lg">
+                    class="bg-slate-800/10 backdrop-blur-sm  cursor-pointer p-6 border border-gray-300/15 text-center  rounded-br-xl transition duration-200 ease-in-out hover:shadow-lg">
                     <!-- SVG Icon -->
                     <svg class="mx-auto mb-4 h-16 w-16 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
                          viewBox="0 0 24 24" stroke="currentColor">
