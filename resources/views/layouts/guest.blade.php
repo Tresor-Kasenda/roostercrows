@@ -38,6 +38,12 @@
     <link rel="apple-touch-startup-image" href="{{ asset('assets/logos/logo.svg') }}">
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
 </head>
 <body class="overflow-hidden overflow-y-auto antialiased" style="scroll-behavior:smooth;">
 <x-header/>
@@ -45,5 +51,13 @@
     {{ $slot }}
 </div>
 <x-footer/>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        loop: true,
+        autoplay: {
+            delay: 5000,
+        },
+    });
+</script>
 </body>
 </html>
