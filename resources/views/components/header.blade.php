@@ -56,7 +56,7 @@
     </div>
 </div>
 <header
-    class="sticky left-0 top-0 w-full flex items-center h-20  z-40 bg-opacity-80 backdrop-filter backdrop-blur-xl">
+    class="sticky left-0 top-0 w-full flex items-center h-20  z-40 bg-transparent backdrop-filter backdrop-blur-xl">
     <nav
         class="relative mx-auto lg:max-w-6xl w-full px-5 sm:px-10 md:px-12 lg:px-5 flex flex-shrink-0 gap-x-5 justify-between items-center">
         <div class="flex items-center min-w-max">
@@ -72,25 +72,25 @@
             <ul class="flex flex-col lg:flex-row gap-6 lg:items-center lg:w-full lg:justify-center">
                 <li class="group">
                     <a href="#"
-                       class="relative text-slate-50 text-sm font-semibold py-2.5 duration-300 ease-linear hover:text-base after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-base">Home</a>
+                       class="relative text-sm font-semibold py-2.5 duration-300 ease-linear hover:text-base after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-base">Home</a>
                 </li>
                 <li class="group">
                     <a href="#"
-                       class="relative text-slate-50 text-sm font-semibold py-2.5 duration-300 ease-linear hover:text-base after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-base">About</a>
+                       class="relative text-sm font-semibold py-2.5 duration-300 ease-linear hover:text-base after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-base">About</a>
                 </li>
                 <li class="group">
                     <a href="#"
-                       class="relative text-slate-50 text-sm font-semibold py-2.5 duration-300 ease-linear hover:text-base after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-base">Services</a>
+                       class="relative text-sm font-semibold py-2.5 duration-300 ease-linear hover:text-base after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-base">Services</a>
                 </li>
                 <li class="group">
                     <a href="#"
-                       class="relative text-slate-50 text-sm font-semibold py-2.5 duration-300 ease-linear hover:text-base after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-base">Work</a>
+                       class="relative text-sm font-semibold py-2.5 duration-300 ease-linear hover:text-base after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-base">Work</a>
                 </li>
             </ul>
             <div class="flex items-center lg:min-w-max mt-10 lg:mt-0 gap-4 lg:gap-6">
                 <a href="{{ route('contact') }}" class="group/a">
                      <span
-                         class="text-slate-50 text-sm font-semibold border border-slate-50/20 px-4 py-3 rounded-xl duration-300 ease-linear hover:bg-slate-800">
+                         class="text-black text-sm font-semibold border px-4 py-3 rounded-xl duration-300 ease-linear hover:bg-slate-100">
                         Book a call
                      </span>
                 </a>

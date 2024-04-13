@@ -39,7 +39,7 @@
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body class="overflow-hidden overflow-y-auto bg-slate-950 antialiased" style="scroll-behavior:smooth;">
+<body class="overflow-hidden overflow-y-auto antialiased" style="scroll-behavior:smooth;">
 <x-header/>
 <div class="flex flex-col gap-y-20 md:gap-y-32 overflow-hidden">
     {{ $slot }}
