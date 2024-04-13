@@ -2,14 +2,14 @@
     <div class="max-w-7xl mx-auto px-5 sm:px-10 md:px-12 lg:px-5">
         <div class="flex flex-col space-y-16">
             <div class="flex flex-col justify-start text-center space-y-5 py-10">
-                <h3 class="text-4xl sm:text-5xl lg:text-7xl font-bold text-slate-50/90 leading-tight ">
+                <h3 class="text-4xl sm:text-5xl lg:text-7xl font-bold leading-tight ">
                     Qui sommes nous ?
                 </h3>
             </div>
             <div class="flex flex-col md:flex-row gap-10 lg:gap-14">
                 <div class="md:w-[48%] xl:w-[45%] md:py-6 xl:py-12 space-y-8">
                     <div class="space-y-6">
-                        <p class="text-gray-500 text-lg font-medium leading-8 tracking-tighter">
+                        <p class="text-gray-700 text-lg font-medium leading-8 tracking-tighter">
                             Forte de plusieurs années d'expérience, notre entreprise s'est imposée comme un acteur
                             incontournable dans divers domaines d'expertise. Inspirée par un expert reconnu, notre
                             équipe de professionnels chevronnés met tout en œuvre pour offrir des services de haute
@@ -23,7 +23,7 @@
                     </div>
                 </div>
                 <div
-                    class="flex-1 relative bg-slate-50/10 p-6 rounded-lg shadow-sm border border-slate-50/20 aspect-[4/2.4] overflow-hidden">
+                    class="flex-1 relative bg-slate-50/10 p-6 rounded-lg shadow-sm border border-gray-600/20 aspect-[4/2.4] overflow-hidden">
                     <img src="{{ asset('assets/images/roosters/5.webp') }}" alt="illustration" width="1800"
                          class="w-full h-full rounded-lg aspect-auto object-cover transition duration-300 ease-out">
                     <div class="absolute -mt-6">
