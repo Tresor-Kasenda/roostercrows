@@ -2,10 +2,10 @@
     <div class="container mx-auto px-6 md:px-12 xl:px-32">
         <div class="mb-16">
             <h2 class="mb-4 text-center text-4xl font-bold text-gray-800 md:text-5xl lg:text-7xl">
-                Notre equipe
+                {!! __('roostercrows.teams.title') !!}
             </h2>
             <p class="text-gray-700 text-center leading-8 lg:mx-auto lg:w-8/12">
-                Decouvrez notre equipe des experts dans differents domaines
+                {!! __('roostercrows.teams.sub_title') !!}
             </p>
         </div>
         <div class="grid items-center gap-12 md:grid-cols-3">
@@ -20,7 +20,7 @@
                 />
                 <div class="space-y-2">
                     <h4 class="text-2xl text-gray-500 font-semibold py-2">Tresor KASENDA</h4>
-                    <span class="block text-sm text-gray-500">Directeur operation</span>
+                    <span class="block text-sm text-gray-500">{!! __('roostercrows.teams.contents.title1') !!}</span>
                 </div>
             </div>
             <div class="space-y-4 text-center">
@@ -34,7 +34,7 @@
                 />
                 <div class="space-y-2">
                     <h4 class="text-2xl text-gray-500 font-semibold py-2">Deogratias RAMAZANI</h4>
-                    <span class="block text-sm text-gray-500">Fondateur/Visionnaire</span>
+                    <span class="block text-sm text-gray-500">{!! __('roostercrows.teams.contents.title2') !!}</span>
                 </div>
             </div>
             <div class="space-y-4 text-center">
@@ -48,7 +48,7 @@
                 />
                 <div class="space-y-2">
                     <h4 class="text-2xl text-gray-500 font-semibold py-2">Dieuo KASAMBA</h4>
-                    <span class="block text-sm text-gray-500">Directeur Technique</span>
+                    <span class="block text-sm text-gray-500">{!! __('roostercrows.teams.contents.title3') !!}</span>
                 </div>
             </div>
         </div>

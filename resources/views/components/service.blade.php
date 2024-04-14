@@ -2,11 +2,11 @@
     <div class="container mx-auto max-w-6xl px-4">
         <div class="text-center mx-auto mb-20 space-y-4">
             <h2 class="text-center text-3xl sm:text-5xl lg:text-6xl text-black font-bold">
-                Nos services
+                {!! __('roostercrows.services.title') !!}
             </h2>
 
             <p class="text-gray-700 text-lg text-center dark:text-gray-400">
-                Voici les services que nous proposons à nos clients
+                {!! __('roostercrows.services.sub_title') !!}
             </p>
         </div>
 
@@ -23,11 +23,11 @@
                     </svg>
 
                     <div class="flex items-center justify-center mb-2">
-                        <h3 class="text-xl font-bold mr-2">Ingénierie, construction</h3>
+                        <h3 class="text-xl font-bold mr-2">{!! __('roostercrows.services.contents.first.title') !!}</h3>
                     </div>
 
                     <p class=" text-base text-slate-600 mb-4 mt-10">
-                        Conception et réalisation de projets d'ingénierie et de construction de qualité supérieure.
+                        {!! __('roostercrows.services.contents.first.description') !!}
                     </p>
                 </div>
                 <div
@@ -40,11 +40,11 @@
                     </svg>
 
                     <div class="flex items-center justify-center mb-2">
-                        <h3 class="text-xl font-bold mr-2">Service Maintenance</h3>
+                        <h3 class="text-xl font-bold mr-2">{!! __('roostercrows.services.contents.second.title') !!}</h3>
                     </div>
 
                     <p class="text-base text-slate-600 mb-4 mt-10">
-                        Entretien et réparation de vos équipements pour une performance optimale.
+                        {!! __('roostercrows.services.contents.second.description') !!}
                     </p>
 
                 </div>
@@ -59,11 +59,11 @@
                     </svg>
 
                     <div class="flex items-center justify-center mb-2">
-                        <h3 class="text-xl font-bold">Main d'oeuvre</h3>
+                        <h3 class="text-xl font-bold">{!! __('roostercrows.services.contents.thirds.title') !!}</h3>
                     </div>
 
                     <p class="text-base text-slate-600 mb-4 mt-10">
-                        Des professionnels compétents et expérimentés pour répondre à tous vos besoins en main-d'œuvre.
+                        {!! __('roostercrows.services.contents.thirds.description') !!}
                     </p>
 
                 </div>
@@ -77,11 +77,11 @@
                     </svg>
 
                     <div class="flex items-center justify-center mb-2">
-                        <h3 class="text-xl font-bold">Service de Reparation</h3>
+                        <h3 class="text-xl font-bold">{!! __('roostercrows.services.contents.fourth.title') !!}</h3>
                     </div>
 
                     <p class="text-base text-slate-600 mb-4 mt-10">
-                        Réparation rapide et efficace de vos équipements pour minimiser les temps d'arrêt.
+                        {!! __('roostercrows.services.contents.fourth.description') !!}
                     </p>
 
                 </div>
@@ -94,11 +94,11 @@
                               d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                     </svg>
                     <div class="flex items-center justify-center mb-2">
-                        <h3 class="text-xl font-bold">Formation</h3>
+                        <h3 class="text-xl font-bold">{!! __('roostercrows.services.contents.fiveth.title') !!}</h3>
                         <i class="fas fa-check-circle text-green-500"></i>
                     </div>
                     <p class="text-base text-slate-600 mb-4 mt-10">
-                        Des formations pratiques et théoriques pour améliorer les compétences de vos employés.
+                        {!! __('roostercrows.services.contents.fiveth.description') !!}
                     </p>
                 </div>
             </div>

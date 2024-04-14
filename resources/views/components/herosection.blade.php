@@ -18,26 +18,23 @@
             <div class="lg:py-6">
                 <div class="text-center lg:text-left">
                     <span class="px-4 py-1 bg-gray-600 text-sm text-white rounded-full">
-                        Decouvrez les
-                        <a href="#" class="underline text-crimson-700 font-semibold">news</a>
+                        {!! __('roostercrows.hero_section.action') !!}
                     </span>
                     <h1 class="text-gray-800 tracking-tighter pt-4 font-bold text-4xl md:text-5xl lg:text-6xl">
-                        Nous aidons <br> les
-                        <span class="text-transparent bg-clip-text bg-gradient-to-br from-crimson-500 to-crimson-600">
-                            entreprises
-                        </span>
-                        dans leurs developpement.
+                        {!! __('roostercrows.hero_section.title') !!}
                     </h1>
                 </div>
 
                 <p class="text-gray-600 mt-8 text-center text-sm lg:text-left mx-auto max-w-xl">
-                    Faciliter vos affaires, vos échanges commerciaux et vos commerce international en RDC
+                    {!! __('roostercrows.hero_section.paragraphs') !!}
                 </p>
 
                 <div class="flex items-center gap-4 mt-8 text-sm flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0">
                     <a href="{{ route('contact') }}"
                        class="px-7 relative text-white h-10 flex w-full sm:w-max justify-center items-center before:bg-crimson-500 before:absolute before:inset-0 before:rounded-full before:transition-transform before:ease-linear hover:before:scale-105 active:before:scale-95">
-                        <span class="relative text-white">Nous contactez</span>
+                        <span class="relative text-white">
+                            {!! __('roostercrows.hero_section.contact') !!}
+                        </span>
                     </a>
 
                     <a href="#"
@@ -49,7 +46,7 @@
                                       d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z"
                                       clip-rule="evenodd"></path>
                             </svg>
-                            Voir plus
+                            {!! __('roostercrows.hero_section.plus') !!}
                         </span>
                     </a>
                 </div>
