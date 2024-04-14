@@ -72,30 +72,26 @@
             <ul class="flex flex-col lg:flex-row gap-6 lg:items-center lg:w-full lg:justify-center">
                 <li class="group">
                     <a href="#"
-                       class="relative text-sm font-semibold py-2.5 duration-300 ease-linear hover:text-base after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-base">Home</a>
+                       class="relative text-sm text-gray-800 font-semibold py-2.5 duration-300 ease-linear hover:text-crimson-700 after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-base">
+                        Accueil
+                    </a>
                 </li>
                 <li class="group">
                     <a href="#"
-                       class="relative text-sm font-semibold py-2.5 duration-300 ease-linear hover:text-base after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-base">About</a>
+                       class="relative text-sm text-gray-800 font-semibold py-2.5 duration-300 ease-linear hover:text-crimson-700 after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-base">
+                        Apropos de nous
+                    </a>
                 </li>
                 <li class="group">
                     <a href="#"
-                       class="relative text-sm font-semibold py-2.5 duration-300 ease-linear hover:text-base after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-base">Services</a>
-                </li>
-                <li class="group">
-                    <a href="#"
-                       class="relative text-sm font-semibold py-2.5 duration-300 ease-linear hover:text-base after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-base">Work</a>
+                       class="relative text-sm text-gray-800 font-semibold py-2.5 duration-300 ease-linear hover:text-crimson-700 after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-base">
+                        Nos Services
+                    </a>
                 </li>
             </ul>
             <div class="flex items-center lg:min-w-max mt-10 lg:mt-0 gap-4 lg:gap-6">
-                <a href="{{ route('contact') }}" class="group/a">
-                     <span
-                         class="text-black text-sm font-semibold border px-4 py-3 rounded-xl duration-300 ease-linear hover:bg-slate-100">
-                        Book a call
-                     </span>
-                </a>
                 <a href="{{ route('contact') }}"
-                   class="group/a flex h-9 items-center overflow-hidden rounded-full py-3 px-4 text-lg bg-gradient-to-t from-base to-pink-600">
+                   class="group/a flex h-9 items-center overflow-hidden rounded-full py-3 px-4 text-lg bg-gradient-to-t from-crimson-500 to-crimson-600">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                          stroke="currentColor" class="size-5 text-slate-50 mr-2">
                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -103,7 +99,7 @@
                     </svg>
 
                     <span class="text-white text-sm font-semibold">
-                        Book a call
+                        Réservez une visite
                      </span>
                 </a>
             </div>

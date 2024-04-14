@@ -5,8 +5,7 @@
                 Ours Teams
             </h2>
             <p class="text-gray-700 text-center leading-8 lg:mx-auto lg:w-8/12">
-                Tailus prides itself not only on award-winning technology, but also on the talent of its
-                people of some of the brightest minds and most experienced executives in business.
+                Decouvrez notre equipe des experts dans differents domaines
             </p>
         </div>
         <div class="grid items-center gap-12 md:grid-cols-3">

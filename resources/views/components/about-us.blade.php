@@ -10,15 +10,12 @@
                 <div class="md:w-[48%] xl:w-[45%] md:py-6 xl:py-12 space-y-8">
                     <div class="space-y-6">
                         <p class="text-gray-700 text-lg font-medium leading-8 tracking-tighter">
-                            Forte de plusieurs années d'expérience, notre entreprise s'est imposée comme un acteur
-                            incontournable dans divers domaines d'expertise. Inspirée par un expert reconnu, notre
-                            équipe de professionnels chevronnés met tout en œuvre pour offrir des services de haute
-                            qualité, adaptés à vos besoins et aux exigences du marché.
-
-                            Nous sommes spécialisés dans la facilitation et les échanges commerciaux, optimisant les
-                            transactions pour garantir efficacité et conformité aux meilleures pratiques du secteur.
-                            Grâce à notre maîtrise de la supply chain et de la logistique, y compris le dédouanement en
-                            import et export, nous assurons une livraison rapide et fiable de vos produits.
+                            Sous l'inspiration de M. Rama Deogracias, avec des années
+                            d’expériences accumulées dans le domaine de : Facilitation et échanges commerciaux, Supply
+                            Chain et logistique (dédouanement en import et export), Soudures industrielles et
+                            maintenances des engins lourds et de génie civile, la location des mains d’œuvres dans
+                            différents domaines et la location des matériels roulants, engins lourds de génie civile et
+                            truck et le Commerce international.
                         </p>
                     </div>
                 </div>

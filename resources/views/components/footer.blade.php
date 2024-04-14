@@ -1,7 +1,5 @@
-<div class="mt-16"></div>
-
-<footer>
-    <div class="bg-blue-950 dark:bg-gray-800 pt-8 md:pt-20">
+<footer class="mt-20">
+    <div class="bg-gray-950 pt-8 md:pt-20">
         <div class="container m-auto space-y-8 px-6 text-white dark:text-gray-300 md:px-12 lg:px-20">
             <div>
                 <div class="mb-6 items-center justify-between gap-6 py-6 sm:flex md:mb-16 md:space-y-6 md:py-0">
@@ -12,11 +10,10 @@
                             <select
                                 name="langage"
                                 id="langae"
-                                class="w-full rounded-xl dark:bg-gray-900 px-4 py-2 sm:w-max"
+                                class="w-full rounded-xl dark:bg-gray-900 px-8 py-2 sm:w-max"
                             >
                                 <option value="en">English</option>
                                 <option value="fr">French</option>
-                                <option value="sw">Swahili</option>
                             </select>
                         </label>
                         <div class="flex gap-6">

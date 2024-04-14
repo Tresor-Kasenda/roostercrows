@@ -10,21 +10,22 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['DM Sans', 'sans-serif'],
+                "poppins": ['Poppins', 'sans-serif'],
             },
             colors: {
-                body: "rgb(var(--color-bg))",
-                "box-bg": "rgb(var(--color-box))",
-                "box-shadow": "rgb(var(--box-sd))",
-                "box-border": "rgb(var(--box-border))",
-                primary: "#1d4ed8",
-                "heading-1": "rgb(var(--heading-1))",
-                "heading-2": "rgb(var(--heading-2))",
-                "heading-3": "rgb(var(--heading-3))",
-                base: "#dc2b32"
-            },
-            screens: {
-                midmd: "880px"
+                base: "#dc2b32",
+                crimson: {
+                    50: "#FEF2F3",
+                    100: "#FEE2E3",
+                    200: "#fecacc",
+                    300: "#fca5a9",
+                    400: "#f77278",
+                    500: "#ee454d",
+                    600: "#dc2b33",
+                    700: "#b81d24",
+                    800: "#991b21",
+                    900: "#7f1d21",
+                }
             },
             spacing: {
                 '1': '0.25rem',
