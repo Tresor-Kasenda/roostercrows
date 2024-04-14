@@ -25,10 +25,10 @@
           content="Facilitation et échanges commerciaux, Supply Chain et logistique (dédouanement en import et export), Soudures industrielles et maintenances des engins lourds et de génie civile, la location des mains d’œuvres dans différents domaines et la location des matériels roulants, engins lourds de génie civile et truck et le Commerce international.">
     <meta property="og:description"
           content="Facilitation et échanges commerciaux, Supply Chain et logistique (dédouanement en import et export), Soudures industrielles et maintenances des engins lourds et de génie civile, la location des mains d’œuvres dans différents domaines et la location des matériels roulants, engins lourds de génie civile et truck et le Commerce international.">
-    <meta property="og:image" content="/images/og/logo.png">
-    <meta name="twitter:image" content="/images/og/logo.png">
+    <meta property="og:image" content="{{ asset('assets/images/og/logo.png') }}">
+    <meta name="twitter:image" content="{{ asset('assets/images/og/logo.png') }}">
 
-    <title>{{ config('app.name') }} - {{ $title }}</title>
+    <title>Roostercrows | {{ $title }}</title>
 
     <link rel="shortcut icon" href="{{ asset('assets/logos/logo.svg') }}" type="image/png">
     <link rel="icon" type="image/svg+xml" href="{{ asset('assets/logos/logo.svg') }}"/>

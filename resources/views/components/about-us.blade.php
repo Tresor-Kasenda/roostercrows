@@ -1,4 +1,4 @@
-<section class="py-16" id="about-us">
+<section class="py-16  scroll-mt-24" id="about-us">
     <div class="max-w-7xl mx-auto px-5 sm:px-10 md:px-12 lg:px-5">
         <div class="flex flex-col space-y-16">
             <div class="flex flex-col justify-start text-center space-y-5 py-10">

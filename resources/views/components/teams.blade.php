@@ -1,4 +1,4 @@
-<div class="py-20">
+<div class="py-20  scroll-mt-24">
     <div class="container mx-auto px-6 md:px-12 xl:px-32">
         <div class="mb-16">
             <h2 class="mb-4 text-center text-4xl font-bold text-gray-800 md:text-5xl lg:text-7xl">
