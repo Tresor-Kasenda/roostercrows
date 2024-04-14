@@ -10,7 +10,7 @@
                 <div class="md:w-[48%] xl:w-[45%] md:py-6 xl:py-12 space-y-8">
                     <div class="space-y-6">
                         <p class="text-gray-700 text-lg font-medium leading-8 tracking-tighter">
-                            Sous l'inspiration de M. Rama Deogracias, avec des années
+                            Sous l'inspiration du Manager Rama Deogracias, avec des années
                             d’expériences accumulées dans le domaine de : Facilitation et échanges commerciaux, Supply
                             Chain et logistique (dédouanement en import et export), Soudures industrielles et
                             maintenances des engins lourds et de génie civile, la location des mains d’œuvres dans
