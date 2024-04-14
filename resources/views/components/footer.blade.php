@@ -6,16 +6,7 @@
                     <img width="100" height="42" src="{{ asset('assets/images/logo.webp') }}"
                          alt="Rooster crows investment" class="w-32"/>
                     <div class="mt-6 flex flex-col-reverse flex-wrap gap-6 sm:mt-0 sm:flex-row sm:items-center">
-                        <label>
-                            <select
-                                name="langage"
-                                id="langae"
-                                class="w-full rounded-xl dark:bg-gray-900 px-8 py-2 sm:w-max"
-                            >
-                                <option value="en">English</option>
-                                <option value="fr">French</option>
-                            </select>
-                        </label>
+                        <livewire:layout.switch-language/>
                         <div class="flex gap-6">
                             <a href="#" target="blank" aria-label="github" class="hover:text-primary">
                                 <svg
