@@ -28,7 +28,9 @@
             </div>
             <div
                 class="flex items-center gap-x-2.5 -mx-2 text-gray-700 children:p-2 children:border children:border-x-gray-200  children:bg-gray-100 children:rounded-md">
-                <a href="#" class="transition ease-linear text-slate-300 hover:text-red-700 duration-300">
+                <a href="https://web.facebook.com/61558446032150/"
+                   target="__blanck"
+                   class="transition ease-linear text-slate-300 hover:text-red-700 duration-300">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                          class="bi bi-facebook size-6" viewBox="0 0 16 16">
                         <path
@@ -36,7 +38,8 @@
                     </svg>
                 </a>
 
-                <a href="#" class="transition ease-linear text-slate-300 hover:text-red-700 duration-300">
+                <a href="#" target="__blanck"
+                   class="transition ease-linear text-slate-300 hover:text-red-700 duration-300">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                          class="bi bi-twitter size-6" viewBox="0 0 16 16">
                         <path
@@ -44,7 +47,9 @@
                     </svg>
                 </a>
 
-                <a href="#" class="transition ease-linear text-slate-300 hover:text-red-700 duration-300">
+                <a href="https://www.linkedin.com/company/101892527/admin/feed/posts/"
+                   target="__blanck"
+                   class="transition ease-linear text-slate-300 hover:text-red-700 duration-300">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                          class="bi bi-linkedin size-6" viewBox="0 0 16 16">
                         <path

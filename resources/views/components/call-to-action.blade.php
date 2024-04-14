@@ -8,22 +8,22 @@
                 <span class="block text-crimson-600 xl:inline">avec notre equipes</span>
             </h1>
             <p
-                class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                class="mt-3 text-gray-500 sm:mt-5 text-sm sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                 Nous sommes une entreprise leader dans notre domaine, reconnue pour notre expertise, notre innovation et
                 notre engagement à la satisfaction de nos clients.
             </p>
 
             <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div class="rounded-md shadow">
-                    <a href="#"
-                       class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-600 md:py-4 md:text-lg md:px-10">
+                    <a href="{{ route('contact') }}"
+                       class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-crimson-800 hover:bg-crimson-600 md:py-4 md:text-lg md:px-10">
                         Commencez
                     </a>
                 </div>
                 <div class="mt-3 sm:mt-0 sm:ml-3">
                     <a href="#"
-                       class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-gray-800 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10">
-                        Voir plus
+                       class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-crimson-800 bg-crimson-100 hover:bg-crimson-200 md:py-4 md:text-lg md:px-10">
+                        En savoir plus
                     </a>
                 </div>
             </div>

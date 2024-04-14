@@ -1,5 +1,5 @@
 <section class="py-16  scroll-mt-24" id="about-us">
-    <div class="max-w-7xl mx-auto px-5 sm:px-10 md:px-12 lg:px-5">
+    <div class="max-w-6xl mx-auto px-5 sm:px-10 md:px-12 lg:px-5">
         <div class="flex flex-col space-y-16">
             <div class="flex flex-col justify-start text-center space-y-5 py-10">
                 <h3 class="text-4xl sm:text-5xl lg:text-7xl font-bold leading-tight ">
@@ -25,7 +25,7 @@
                          class="w-full h-full rounded-lg aspect-auto object-cover transition duration-300 ease-out">
                     <div class="absolute -mt-6">
                         <span
-                            class="relative mt-1 bg-slate-50/90 border border-base/20 hover:bg-slate-100 transition ease-in duration-300 hover:border-base/40  rounded-lg max-w-lg text-slate-800 text-[16px] font-normal px-4 py-2 bottom-5 left-5">
+                            class="relative mt-1 bg-slate-50/90 border border-base/20 hover:bg-slate-100 transition ease-in duration-300 hover:border-base/40  rounded-lg max-w-lg text-slate-800 text-sm font-normal px-4 py-2 bottom-5 left-5">
                             6 ans d'experience
                         </span>
                     </div>
