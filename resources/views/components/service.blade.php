@@ -1,10 +1,12 @@
 <section class=" mt-10 lg:mt-20 mb-10 lg:mb-20">
     <div class="container mx-auto max-w-6xl px-4">
         <div class="text-center mx-auto mb-20 space-y-4">
-            <h2 class="text-center text-3xl sm:text-5xl lg:text-6xl text-black font-bold">Ours Services</h2>
+            <h2 class="text-center text-3xl sm:text-5xl lg:text-6xl text-black font-bold">
+                Nos services
+            </h2>
 
             <p class="text-gray-700 text-lg text-center dark:text-gray-400">
-                A platform you can rely on to reach your audience
+                Voici les services que nous proposons à nos clients
             </p>
         </div>
 
@@ -24,10 +26,8 @@
                         <h3 class="text-xl font-bold mr-2">Ingénierie, construction</h3>
                     </div>
 
-                    <p class=" text-base text-slate-400 mb-4">
-                        Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit. Nullam
-                        id felis et ipsum bibendum ultrices.
+                    <p class=" text-base text-slate-600 mb-4 mt-10">
+                        Conception et réalisation de projets d'ingénierie et de construction de qualité supérieure.
                     </p>
                 </div>
                 <div
@@ -43,9 +43,8 @@
                         <h3 class="text-xl font-bold mr-2">Service Maintenance</h3>
                     </div>
 
-                    <p class="text-base text-slate-400 mb-4">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Nullam id felis et ipsum bibendum ultrices.
+                    <p class="text-base text-slate-600 mb-4 mt-10">
+                        Entretien et réparation de vos équipements pour une performance optimale.
                     </p>
 
                 </div>
@@ -63,9 +62,8 @@
                         <h3 class="text-xl font-bold">Main d'oeuvre</h3>
                     </div>
 
-                    <p class="text-base text-slate-400 mb-4">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Nullam id felis et ipsum bibendum ultrices.
+                    <p class="text-base text-slate-600 mb-4 mt-10">
+                        Des professionnels compétents et expérimentés pour répondre à tous vos besoins en main-d'œuvre.
                     </p>
 
                 </div>
@@ -82,9 +80,8 @@
                         <h3 class="text-xl font-bold">Service de Reparation</h3>
                     </div>
 
-                    <p class="text-base text-slate-400 mb-4">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Nullam id felis et ipsum bibendum ultrices.
+                    <p class="text-base text-slate-600 mb-4 mt-10">
+                        Réparation rapide et efficace de vos équipements pour minimiser les temps d'arrêt.
                     </p>
 
                 </div>
@@ -100,9 +97,8 @@
                         <h3 class="text-xl font-bold">Formation</h3>
                         <i class="fas fa-check-circle text-green-500"></i>
                     </div>
-                    <p class="text-base text-slate-400 mb-4">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Nullam id felis et ipsum bibendum ultrices.
+                    <p class="text-base text-slate-600 mb-4 mt-10">
+                        Des formations pratiques et théoriques pour améliorer les compétences de vos employés.
                     </p>
                 </div>
             </div>

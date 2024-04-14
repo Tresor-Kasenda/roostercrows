@@ -2,7 +2,7 @@
     <div class="container mx-auto px-6 md:px-12 xl:px-32">
         <div class="mb-16">
             <h2 class="mb-4 text-center text-4xl font-bold text-gray-800 md:text-5xl lg:text-7xl">
-                Ours Teams
+                Notre equipe
             </h2>
             <p class="text-gray-700 text-center leading-8 lg:mx-auto lg:w-8/12">
                 Decouvrez notre equipe des experts dans differents domaines
