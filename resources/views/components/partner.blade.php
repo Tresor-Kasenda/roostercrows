@@ -1,5 +1,5 @@
-<section class="" aria-description="Liste des nos partenaires">
-    <div class="container mx-auto max-w-5xl px-4">
+<section class="" aria-description="Liste des nos partenaires" aria-labelledby="partners">
+    <div class="container mx-auto max-w-5xl px-4" id="partners">
         <div class="grid grid-cols-1 items-center sm:grid-cols-2 md:grid-cols-4 gap-8 pt-10">
             <div class="text-center">
                 <img

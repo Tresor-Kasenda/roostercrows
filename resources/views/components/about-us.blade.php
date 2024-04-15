@@ -1,8 +1,8 @@
-<section class="py-16  scroll-mt-24" id="about-us" aria-description="A propos de nous">
+<section class="py-16  scroll-mt-24" id="about-us" aria-labelledby="about" aria-description="A propos de nous">
     <div class="max-w-6xl mx-auto px-5 sm:px-10 md:px-12 lg:px-5">
         <div class="flex flex-col space-y-16">
             <div class="flex flex-col justify-start text-center space-y-5 py-10">
-                <h2 class="text-4xl sm:text-5xl lg:text-7xl font-bold leading-tight ">
+                <h2 id="about" class="text-4xl sm:text-5xl lg:text-7xl font-bold leading-tight ">
                     {!! __('roostercrows.abouts.title') !!}
                 </h2>
             </div>

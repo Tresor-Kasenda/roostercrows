@@ -1,7 +1,7 @@
-<section class="py-20  scroll-mt-24" aria-description="Page de notre equipe">
+<section class="py-20  scroll-mt-24" aria-labelledby="teams" aria-description="Page de notre equipe">
     <div class="container mx-auto px-6 md:px-12 xl:px-32">
         <div class="mb-16">
-            <h2 class="mb-4 text-center text-4xl font-bold text-gray-800 md:text-5xl lg:text-7xl">
+            <h2 id="teams" class="mb-4 text-center text-4xl font-bold text-gray-800 md:text-5xl lg:text-7xl">
                 {!! __('roostercrows.teams.title') !!}
             </h2>
             <p class="text-gray-700 text-center leading-8 lg:mx-auto lg:w-8/12">

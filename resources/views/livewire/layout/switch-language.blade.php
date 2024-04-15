@@ -1,4 +1,5 @@
 <label
+    for="language"
     x-data="{ language: '{{ $selectedLanguage }}' }"
 >
     <select

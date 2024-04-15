@@ -1,4 +1,5 @@
-<section class="relative w-full" aria-description="Hero section page de presentation de la plateforme">
+<section class="relative w-full" aria-labelledby="herosection"
+         aria-description="Hero section page de presentation de la plateforme">
     <div class="absolute top-0 inset-x-0 h-64 flex items-start">
         <div
             class="h-24 w-2/3 bg-gradient-to-br from-emerald-500 opacity-20 blur-2xl dark:from-[#570cac] dark:invisible dark:opacity-40">
@@ -20,7 +21,8 @@
                     <span class="px-4 py-1 bg-gray-600 text-sm text-white rounded-full">
                         {!! __('roostercrows.hero_section.action') !!}
                     </span>
-                    <h1 class="text-gray-800 tracking-tighter leading-relaxed pt-4 font-bold text-3xl md:text-4xl lg:text-6xl">
+                    <h1 id="herosection"
+                        class="text-gray-800 tracking-tighter leading-relaxed pt-4 font-bold text-3xl md:text-4xl lg:text-6xl">
                         We help <br> <span
                             class="text-transparent bg-clip-text bg-gradient-to-br from-crimson-500 to-crimson-600">
                             businesses
