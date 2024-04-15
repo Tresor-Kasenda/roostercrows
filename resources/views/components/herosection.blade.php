@@ -1,4 +1,4 @@
-<section class="relative w-full">
+<section class="relative w-full" aria-description="Hero section page de presentation de la plateforme">
     <div class="absolute top-0 inset-x-0 h-64 flex items-start">
         <div
             class="h-24 w-2/3 bg-gradient-to-br from-emerald-500 opacity-20 blur-2xl dark:from-[#570cac] dark:invisible dark:opacity-40">
@@ -20,17 +20,22 @@
                     <span class="px-4 py-1 bg-gray-600 text-sm text-white rounded-full">
                         {!! __('roostercrows.hero_section.action') !!}
                     </span>
-                    <h1 class="text-gray-800 tracking-tighter pt-4 font-bold text-4xl md:text-5xl lg:text-6xl">
-                        {!! __('roostercrows.hero_section.title') !!}
+                    <h1 class="text-gray-800 tracking-tighter leading-relaxed pt-4 font-bold text-3xl md:text-4xl lg:text-6xl">
+                        We help <br> <span
+                            class="text-transparent bg-clip-text bg-gradient-to-br from-crimson-500 to-crimson-600">
+                            businesses
+                        </span>
+                        in their development.
                     </h1>
                 </div>
 
-                <p class="text-gray-600 mt-8 text-center text-sm lg:text-left mx-auto max-w-xl">
+                <p class="text-gray-600 mt-8 text-center leading-tight text-sm lg:text-left mx-auto max-w-xl">
                     {!! __('roostercrows.hero_section.paragraphs') !!}
                 </p>
 
                 <div class="flex items-center gap-4 mt-8 text-sm flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0">
                     <a href="{{ route('contact') }}"
+                       aria-label="Nous contactez"
                        class="px-7 relative text-white h-10 flex w-full sm:w-max justify-center items-center before:bg-crimson-500 before:absolute before:inset-0 before:rounded-full before:transition-transform before:ease-linear hover:before:scale-105 active:before:scale-95">
                         <span class="relative text-white">
                             {!! __('roostercrows.hero_section.contact') !!}
@@ -38,6 +43,7 @@
                     </a>
 
                     <a href="#"
+                       aria-label="Detail de la section"
                        class="px-7 relative text-crimson-500 text-sm h-10 flex w-full sm:w-max justify-center items-center before:bg-crimson-500/5 dark:before:bg-crimson-500/10 before:absolute before:inset-0 before:rounded-full before:transition-transform before:ease-linear hover:before:scale-105 active:before:scale-95">
                         <span class="relative text-crimson-500 flex items-center gap-x-3">
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
@@ -59,13 +65,15 @@
                     </div>
                     <div
                         class="absolute w-3/5 h-full z-10 p-1 -translate-y-1/2 top-1/2 right-3 rounded-3xl bg-whitee dark:bg-gray-950  shadow-lg shadow-gray-100 dark:shadow-transparent  border border-gray-200 dark:border-gray-800">
-                        <img src="{{ asset('assets/images/image2.webp') }}" alt="In studio" width="500" height="auto"
+                        <img aria-hidden="true" role="presentation" src="{{ asset('assets/images/image2.webp') }}"
+                             alt="Premiere image de l'entreprise" width="500" height="auto"
                              loading="lazy"
                              class="w-full h-full rounded-2xl object-cover">
                     </div>
                     <div
-                        class="absolute -translate-y-1/2 top-1/2 h-[calc(80%-2rem)] w-[calc(40%-20px)] p-1 rounded-3xl bg-white dark:bg-gray-950  shadow-lg shadow-gray-100 dark:shadow-transparent  border border-gray-200 dark:border-gray-800">
-                        <img src="{{ asset('assets/images/image1.webp') }}" alt="Happy in studio" width="200"
+                        class="absolute -translate-y-1/2 top-1/2 h-[calc(80%-2rem)] w-[calc(40%-20px)] p-1 rounded-3xl bg-white shadow-lg dark:bg-gray-950 shadow-gray-200 dark:shadow-transparent  border border-gray-200 dark:border-gray-800">
+                        <img aria-hidden="true" role="presentation" src="{{ asset('assets/images/image1.webp') }}"
+                             alt="Second image de l'entreprise" width="200"
                              height="auto"
                              loading="lazy" class="w-full h-full rounded-2xl object-cover">
                     </div>

@@ -28,7 +28,7 @@
     <meta property="og:image" content="{{ asset('assets/images/og/logo.png') }}">
     <meta name="twitter:image" content="{{ asset('assets/images/og/logo.png') }}">
 
-    <title>Roostercrows | {{ $title }}</title>
+    <title>Rooster crows investment | {{ $title }}</title>
 
     <link rel="shortcut icon" href="{{ asset('assets/logos/logo.svg') }}" type="image/png">
     <link rel="icon" type="image/svg+xml" href="{{ asset('assets/logos/logo.svg') }}"/>

@@ -1,11 +1,11 @@
-<section class=" mt-10 lg:mt-20 mb-10 lg:mb-20 scroll-mt-24" id="services">
+<section class=" mt-10 lg:mt-20 mb-10 lg:mb-20 scroll-mt-24" id="services" aria-description="Page de services">
     <div class="container mx-auto max-w-6xl px-4">
         <div class="text-center mx-auto mb-20 space-y-4">
             <h2 class="text-center text-3xl sm:text-5xl lg:text-6xl text-black font-bold">
                 {!! __('roostercrows.services.title') !!}
             </h2>
 
-            <p class="text-gray-700 text-lg text-center dark:text-gray-400">
+            <p class="text-gray-700 text-center leading-8">
                 {!! __('roostercrows.services.sub_title') !!}
             </p>
         </div>

@@ -1,4 +1,4 @@
-<div class="py-20  scroll-mt-24">
+<section class="py-20  scroll-mt-24" aria-description="Page de notre equipe">
     <div class="container mx-auto px-6 md:px-12 xl:px-32">
         <div class="mb-16">
             <h2 class="mb-4 text-center text-4xl font-bold text-gray-800 md:text-5xl lg:text-7xl">
@@ -13,7 +13,9 @@
                 <img
                     class="mx-auto size-56 rounded-xl object-cover md:h-40 md:w-40 lg:size-56"
                     src="{{ asset('assets/images/roosters/tresor.webp') }}"
-                    alt="woman"
+                    alt="Tresor Kasenda"
+                    aria-hidden="true"
+                    role="presentation"
                     loading="lazy"
                     width="640"
                     height="805"
@@ -27,7 +29,9 @@
                 <img
                     class="mx-auto h-64 w-64 rounded-xl object-cover md:h-64 md:w-48 lg:h-80 lg:w-64"
                     src="{{ asset('assets/images/ceo.webp') }}"
-                    alt="man"
+                    alt="Deogracias RAMAZANI"
+                    aria-hidden="true"
+                    role="presentation"
                     loading="lazy"
                     width="1000"
                     height="667"
@@ -41,7 +45,9 @@
                 <img
                     class="mx-auto size-56 rounded-xl object-cover md:h-40 md:w-40 lg:size-56"
                     src="{{ asset('assets/images/roosters/tresor.webp') }}"
-                    alt="woman"
+                    alt="Dieuo KASAMBA"
+                    aria-hidden="true"
+                    role="presentation"
                     loading="lazy"
                     width="1000"
                     height="667"
@@ -53,4 +59,4 @@
             </div>
         </div>
     </div>
-</div>
+</section>

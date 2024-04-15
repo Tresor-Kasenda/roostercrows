@@ -3,7 +3,8 @@
     <div class="mx-auto lg:max-w-6xl w-full px-5 sm:px-10 md:px-12 lg:px-5">
         <div class="w-full flex justify-between h-14 items-center">
             <div class="h-full flex items-center gap-x-4">
-                <a href="tel:+243814434054" class="flex items-center gap-1 text-sm">
+                <a href="tel:+243814434054" aria-label="Representation du numero de telephone"
+                   class="flex items-center gap-1 text-sm">
                     <svg xmlns="http://www.w3.org/2000/svg"
                          class="size-6 hover:font-medium text-slate-300 hover:text-red-600 transition scale-75 ease-out"
                          viewBox="0 0 20 20" fill="currentColor">
@@ -14,7 +15,8 @@
                     </svg>
                     <span class="hidden sm:flex text-sm text-slate-300 font-medium">+243 814 434 054 </span>
                 </a>
-                <a href="mailto:infos@roostercrowsinvest.com" class="flex gap-1 items-center">
+                <a href="mailto:infos@roostercrowsinvest.com" aria-label="Representation de l'adresse email"
+                   class="flex gap-1 items-center">
                     <span>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
                              class="size-6 hover:font-medium text-slate-300 hover:text-red-600 transition scale-75 ease-out">
@@ -30,6 +32,7 @@
                 class="flex items-center gap-x-2.5 -mx-2 text-gray-700 children:p-2 children:border children:border-x-gray-200  children:bg-gray-100 children:rounded-md">
                 <a href="https://web.facebook.com/61558446032150/"
                    target="__blanck"
+                   aria-label="Nous contactez pour facebook"
                    class="transition ease-linear text-slate-300 hover:text-red-700 duration-300">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                          class="bi bi-facebook size-6" viewBox="0 0 16 16">
@@ -39,6 +42,7 @@
                 </a>
 
                 <a href="#" target="__blanck"
+                   aria-label="Nous contactez pour twitter"
                    class="transition ease-linear text-slate-300 hover:text-red-700 duration-300">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                          class="bi bi-twitter size-6" viewBox="0 0 16 16">
@@ -49,6 +53,7 @@
 
                 <a href="https://www.linkedin.com/company/101892527/admin/feed/posts/"
                    target="__blanck"
+                   aria-label="Nous contactez pour linkedin"
                    class="transition ease-linear text-slate-300 hover:text-red-700 duration-300">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                          class="bi bi-linkedin size-6" viewBox="0 0 16 16">
@@ -65,9 +70,15 @@
     <nav
         class="relative mx-auto lg:max-w-6xl w-full px-5 sm:px-10 md:px-12 lg:px-5 flex flex-shrink-0 gap-x-5 justify-between items-center">
         <div class="flex items-center min-w-max">
-            <a href="{{ route('home') }}" class="text-xl font-semibold flex items-center gap-x-2">
+            <a href="{{ route('home') }}" aria-label="Logo de rooster crows"
+               class="text-xl font-semibold flex items-center gap-x-2">
                 <span class="text-lg">
-                    <img src="{{ asset('assets/images/review.webp') }}" class="w-36 sm:w-20 lg:w-36" alt="tailus logo"/>
+                    <img
+                        src="{{ asset('assets/images/review.webp') }}"
+                        class="w-36 sm:w-20 lg:w-36"
+                        aria-hidden="true"
+                        role="presentation"
+                        alt="Logo de rooster crows"/>
                 </span>
             </a>
         </div>
@@ -77,18 +88,21 @@
             <ul class="flex flex-col lg:flex-row gap-6 lg:items-center lg:w-full lg:justify-center">
                 <li class="group">
                     <a href="#"
+                       aria-label="Page d'accueil"
                        class="relative text-sm text-gray-800 font-semibold py-2.5 duration-300 ease-linear hover:text-crimson-700 after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-base">
                         Accueil
                     </a>
                 </li>
                 <li class="group">
                     <a href="#about-us"
+                       aria-label="A propos de nous"
                        class="relative text-sm text-gray-800 font-semibold py-2.5 duration-300 ease-linear hover:text-crimson-700 after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-base">
                         Apropos de nous
                     </a>
                 </li>
                 <li class="group">
                     <a href="#services"
+                       aria-label="Nos services"
                        class="relative text-sm text-gray-800 font-semibold py-2.5 duration-300 ease-linear hover:text-crimson-700 after:absolute after:w-full after:left-0 after:bottom-0 after:h-px after:rounded-md after:origin-left after:ease-linear after:duration-300 after:scale-x-0 hover:after:scale-100 after:bg-base">
                         Nos Services
                     </a>
@@ -96,6 +110,7 @@
             </ul>
             <div class="flex items-center lg:min-w-max mt-10 lg:mt-0 gap-4 lg:gap-6">
                 <a href="{{ route('contact') }}"
+                   aria-label="Nous contactez"
                    class="group/a flex h-9 items-center overflow-hidden rounded-full py-3 px-4 text-lg bg-gradient-to-t from-crimson-500 to-crimson-600">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                          stroke="currentColor" class="size-5 text-slate-50 mr-2">
@@ -110,12 +125,19 @@
             </div>
         </div>
         <div aria-hidden="true" class="flex flex-col items-center lg:hidden">
-            <button aria-label="toggle navbar" data-toggle-navbar data-is-open="false"
-                    class="outline-none border-l border-l-pink-100  pl-3 relative py-3 children:flex">
-                <span id="line-1" aria-hidden="true"
-                      class="h-0.5 w-6 rounded bg-gray-800  transition duration-300"></span>
-                <span id="line-2" aria-hidden="true"
-                      class="mt-2 h-0.5 w-6 rounded bg-gray-800 transition duration-300"></span>
+            <button
+                aria-label="toggle navbar"
+                data-toggle-navbar
+                data-is-open="false"
+                class="outline-none border-l border-l-pink-100  pl-3 relative py-3 children:flex">
+                <span
+                    id="line-1"
+                    aria-hidden="true"
+                    class="h-0.5 w-6 rounded bg-gray-800  transition duration-300"></span>
+                <span
+                    id="line-2"
+                    aria-hidden="true"
+                    class="mt-2 h-0.5 w-6 rounded bg-gray-800 transition duration-300"></span>
             </button>
         </div>
     </nav>

@@ -13,7 +13,6 @@ export default {
                 "poppins": ['Poppins', 'sans-serif'],
             },
             colors: {
-                base: "#dc2b32",
                 crimson: {
                     50: "#FEF2F3",
                     100: "#FEE2E3",

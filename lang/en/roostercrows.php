@@ -6,8 +6,11 @@ return [
     ],
     'title' => 'We help businesses in their development',
     'hero_section' => [
-        'action' => 'Discover the news',
-        'title' => 'We help  businesses  in their development.',
+        'action' => 'Discover the  <a href="#" class="underline text-crimson-700 font-semibold">news</a>',
+        'title' => 'We help <br> <span class="text-transparent bg-clip-text bg-gradient-to-br from-crimson-500 to-crimson-600">
+                            businesses
+                        </span>
+                        in their development.',
         'paragraphs' => 'Facilitate your business, your commercial exchanges and your international trade in the DRC',
         'contact' => 'Contact us',
         'plus' => 'See more'
